@@ -6,7 +6,6 @@ body {
     font-family: 'Roboto', sans-serif, serif;
     padding: 0;
     margin: 0;
-    justify-content: baseline;
 }
 
 ul {
@@ -21,24 +20,35 @@ h1{
     font-size: 48px;
     font-weight: 900;
     margin: 0;
-    flex: 1;
 }
 
-button{
-    background-color:#3882F6;
+h2{
+    color: #1f2937;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    padding: 25px 5%;    
 }
 
 .header,
 .intro {
     color: #f9faf8; 
     display: flex;
-    padding-bottom: 100px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 0 15vw 100px 15vw;
+}  
+@media only screen and (max-width: 650px) {
+    .intro {
+      flex-wrap: wrap;
+    }
+  } 
+.intro{
+    gap: 25px;
 }
-
 .header {
     font-size: 24px;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
@@ -49,32 +59,78 @@ button{
 .card{
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .heroimg { 
-    max-width: 500px;
-    max-height: 281px;
+    max-width: 600px;
+    max-height: 321px;
 }
 
 .herotext {
     font-size: 18px;
     color: #e5e7eb;
-    flex: 1;
+    max-width: 600px;
+}
+.cta{
+    background-color:#3882F6;
+    align-self: flex-start;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 5px 30px;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 18px;
 }
 
-.left-side,
-.right-side{
-    flex:1;
+.imgcontainer{
+    display: flex; 
+    justify-content: center;
+    gap:40px;
 }
-
-.idiot{
-    display: flex;
-    background-color: #1f2937;
-}
-
-.hero {
+.figure {
     display: flex;
     flex-direction: column;
-    flex: 4;
+    width: 150px;
+    gap: 15px;
+ }
+
+.section2img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.quotesec{
+    align-self: center;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    padding: 0 5%;s
+}
+.quote{
+    align-self: center;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    
+}
+
+.person {
+    align-self:  flex-end;
+    text-align: end;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+
 }
