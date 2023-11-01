@@ -36,7 +36,7 @@ h2{
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
-    padding: 0 15vw 100px 15vw;
+    padding: 0 10vw 100px 10vw;
 }  
 @media only screen and (max-width: 650px) {
     .intro {
@@ -59,11 +59,13 @@ h2{
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .heroimg { 
-    max-width: 600px;
-    max-height: 321px;
+    max-width: 60%;
+    max-height: auto;
+    align-self: center;
 }
 
 .herotext {
@@ -92,20 +94,20 @@ h2{
 .imgcontainer{
     display: flex; 
     justify-content: center;
-    gap:40px;
+    gap: 70px;
     flex-wrap: wrap;
     margin-bottom: 15px;
 }
 .figure {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 220px;
     gap: 15px;
  }
 
 .section2img {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     border-radius: 10px;
     border-color: #3882F6;
     border-width: 3px;
@@ -118,7 +120,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 0 5%;s
 }
 .quote{
@@ -149,7 +151,7 @@ h2{
     display: flex;
     justify-content: space-around;
     margin: 100px auto;
-    padding: 3rem 6rem;
+    padding: 2rem 5rem;
     border-radius: 10px;
     gap: 5rem;
 }
@@ -171,7 +173,10 @@ h2{
     max-width: 550px;
 }
 
-.cta2{
-
+.footer{
+    text-align: center;
+    color:#f9faf8;
+    background-color: #1f2937;
+    padding: 40px;
 }
 
