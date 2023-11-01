@@ -71,21 +71,30 @@ h2{
     color: #e5e7eb;
     max-width: 600px;
 }
-.cta{
+.cta,
+.cta2{
     background-color:#3882F6;
-    align-self: flex-start;
-    border-radius: 10px;
-    border-color: #3882F6;
     padding: 5px 30px;
     color: #f9faf8;
     font-weight: 700;
     font-size: 18px;
+    border-radius: 10px;
 }
 
+.cta{
+    align-self: flex-start;
+    border-color: #3882F6; 
+}
+.cta2{
+    border-color: #f9faf8;
+    align-self: center;
+}
 .imgcontainer{
     display: flex; 
     justify-content: center;
     gap:40px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 .figure {
     display: flex;
@@ -134,3 +143,35 @@ h2{
     background-color: #e5e7eb;
 
 }
+
+.ctasection{
+    background-color:#3882F6;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+    padding: 3rem 6rem;
+    border-radius: 10px;
+    gap: 5rem;
+}
+
+@media only screen and (max-width: 35rem) {
+    .ctasection {
+      flex-wrap: wrap;
+    }
+}
+
+.ctatext {
+    max-width: 35rem;
+    color:#f9faf8;
+}
+
+.ctah,
+.ctap { 
+    margin:0;
+    max-width: 550px;
+}
+
+.cta2{
+
+}
+
