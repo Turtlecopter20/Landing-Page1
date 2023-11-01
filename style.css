@@ -39,9 +39,9 @@ h2{
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
-    padding: 0 10vw 100px 10vw;
+    padding: 0 15vw 100px 15vw;
 }  
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 300px) {
     .intro {
       flex-wrap: wrap;
     }
@@ -82,35 +82,36 @@ h2{
     padding: 5px 30px;
     color: #f9faf8;
     font-weight: 700;
-    font-size: 18px;
     border-radius: 10px;
 }
 
 .cta{
     align-self: flex-start;
     border-color: #3882F6; 
+    font-size: 18px;
 }
 .cta2{
     border-color: #f9faf8;
     align-self: center;
+    font-size: 26px;
 }
 .imgcontainer{
     display: flex; 
     justify-content: center;
     gap: 70px;
     flex-wrap: wrap;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .figure {
     display: flex;
     flex-direction: column;
-    width: 220px;
+    width: 350px;
     gap: 15px;
  }
 
 .section2img {
-    width: 220px;
-    height: 220px;
+    width: 350px;
+    height: 350px;
     border-radius: 10px;
     border-color: #3882F6;
     border-width: 3px;
@@ -123,7 +124,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 1280px;
     padding: 0 5%;s
 }
 .quote{
@@ -166,14 +167,15 @@ h2{
 }
 
 .ctatext {
-    max-width: 35rem;
+    max-width: 50rem;
     color:#f9faf8;
+    font-size: 26px;
 }
 
 .ctah,
 .ctap { 
     margin:0;
-    max-width: 550px;
+    max-width:900px;
 }
 
 .footer{
